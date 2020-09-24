@@ -2,8 +2,8 @@ const { GrapeJSEditorImplementation, MongoIntegerInterface, KnexIntegerInterface
 const { Text } = require('@keystonejs/fields');
 
 
-module.exports = {
-  type: 'GrapeJSEditor',
+let GrapesJSEditor = {
+  type: 'GrapeJSEditorImplementation',
   implementation: GrapeJSEditorImplementation,
   views: {
     Controller: require.resolve('./views/Controller'),
@@ -16,3 +16,5 @@ module.exports = {
     knex: KnexIntegerInterface,
   },
 };
+
+exports.GrapesJSEditor = GrapesJSEditor;
