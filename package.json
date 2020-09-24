@@ -1,5 +1,5 @@
 {
-  "name": "@keystone/grapesjs_editor",
+  "name": "keystonejs-grapesjs-editor",
   "version": "1.0.0",
   "description": "KeystoneJS webpage editor powered by grapesjs and react-codemirror2",
   "main": "index.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agupta87/keystone_grapesjs_editor.git"
+    "url": "git+https://github.com/agupta87/keystonejs-grapesjs-editor.git"
   },
   "keywords": [
     "KeystoneJS",
@@ -20,9 +20,9 @@
   "author": "Ashish Gupta",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/agupta87/keystone_grapesjs_editor/issues"
+    "url": "https://github.com/agupta87/keystonejs-grapesjs-editor/issues"
   },
-  "homepage": "https://github.com/agupta87/keystone_grapesjs_editor#readme",
+  "homepage": "https://github.com/agupta87/keystonejs-grapesjs-editor#readme",
   "dependencies": {
     "@arch-ui/fields": "^3.0.5",
     "@keystonejs/fields": "^17.1.3",

@@ -3,7 +3,7 @@ const { Text } = require('@keystonejs/fields');
 
 
 module.exports = {
-  type: 'GrapeJSEditorImplementation',
+  type: 'GrapeJSEditor',
   implementation: GrapeJSEditorImplementation,
   views: {
     Controller: require.resolve('./views/Controller'),
