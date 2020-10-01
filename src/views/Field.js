@@ -29,13 +29,13 @@ const InputCustomField = (props) => {
 
                 {isShowingEditor ?
                     <div style={{ position: "fixed", top: 0, right: 0, width: "100%", height: "100%", zIndex: 99 }}>
-                        <GrapeJsEditor config={props.field.config} value={value} onChange={onChange} id={props.item?.id} closeEditor={closeEditor} />
+                        <GrapeJsEditor config={props.field.config} value={value} onChange={onChange} id={props.item ? props.item.id : ''} closeEditor={closeEditor} />
                     </div>
                     :
-                    <button type="button" onClick={showEditor} className="css-1ha7rw4-ButtonElementComponent btn" style={{ backgroundColor: "#463a3c"}}>
+                    <button type="button" onClick={showEditor} className="css-1ha7rw4-ButtonElementComponent btn" style={{ backgroundColor: "#463a3c" }}>
                         <div className="css-79elbk">
-                            <img src={require('./static/grapesjs-logo-cl.png')} style={{height: "13px"}}></img>
-                            <span className="css-t2nwix-LoadingButtonComponent" style={{color: "#fff" }}>&nbsp;Open GrapesJS Editor</span>
+                            <img src={require('./static/grapesjs-logo-cl.png')} style={{ height: "13px" }}></img>
+                            <span className="css-t2nwix-LoadingButtonComponent" style={{ color: "#fff" }}>&nbsp;Open GrapesJS Editor</span>
                         </div>
                     </button>}
             </FieldContainer>
