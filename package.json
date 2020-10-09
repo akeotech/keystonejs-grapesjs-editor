@@ -1,6 +1,6 @@
 {
   "name": "keystonejs-grapesjs-editor",
-  "version": "1.0.6",
+  "version": "1.0.8",
   "description": "KeystoneJS webpage editor powered by grapesjs and react-codemirror2",
   "main": "index.js",
   "scripts": {
