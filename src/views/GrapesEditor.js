@@ -146,7 +146,7 @@ export default function GrapeJsEditor(props) {
         {!isShowingCodeEditor ?
           (
             <>
-              <button type="button" class="btn" style={{ float: "left"}} onClick={ props.closeEditor}> <i className="fa fa-times"></i> </button>
+              <button type="button" className="btn" style={{ float: "left" }} onClick={props.closeEditor}> <i className="fa fa-times"></i> </button>
               <button type="button" className="btn" onClick={handleChanges}> <i className="fa fa-save"></i> Save</button>
               <button type="button" className="btn" onClick={showCodeEditor}> <i className="fa fa-code"></i> Code Editor  </button>
             </>
