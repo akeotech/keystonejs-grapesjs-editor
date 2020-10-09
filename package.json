@@ -1,14 +1,15 @@
 {
-  "name": "@keystone/grapesjs_editor",
-  "version": "1.0.0",
+  "name": "keystonejs-grapesjs-editor",
+  "version": "1.0.8",
   "description": "KeystoneJS webpage editor powered by grapesjs and react-codemirror2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d dist"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/agupta87/keystone_grapesjs_editor.git"
+    "url": "git+https://github.com/agupta87/keystonejs-grapesjs-editor.git"
   },
   "keywords": [
     "KeystoneJS",
@@ -20,12 +21,13 @@
   "author": "Ashish Gupta",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/agupta87/keystone_grapesjs_editor/issues"
+    "url": "https://github.com/agupta87/keystonejs-grapesjs-editor/issues"
   },
-  "homepage": "https://github.com/agupta87/keystone_grapesjs_editor#readme",
+  "homepage": "https://github.com/agupta87/keystonejs-grapesjs-editor#readme",
   "dependencies": {
     "@arch-ui/fields": "^3.0.5",
-    "@keystonejs/fields": "^17.1.3",
+    "@babel/plugin-proposal-class-properties": "^7.10.4",
+    "@keystonejs/fields": "^18.0.0",
     "grapesjs": "^0.16.22",
     "grapesjs-preset-webpage": "^0.1.11",
     "grapesjs-react": "^3.1.1",
@@ -33,5 +35,11 @@
     "react": "^16.13.1",
     "react-codemirror2": "^7.2.1",
     "uuid": "^8.3.0"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.11.6",
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@babel/preset-react": "^7.10.4"
   }
 }
